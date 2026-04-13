@@ -2,6 +2,7 @@ public class Policy
 {
     private int policyNumber;
     private String providerName;
+    private PolicyHolder policyHolder;
     
     // static field to count objects
     private static int policyCount = 0;
